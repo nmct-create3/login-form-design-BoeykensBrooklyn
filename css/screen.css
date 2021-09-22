@@ -201,6 +201,9 @@ a:focus {
 
 .o-row--login {
     /* stuff here to align the card */
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* size modifiers */
