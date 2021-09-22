@@ -476,6 +476,34 @@ a:focus {
     Card with box shadow
 */
 
+.c-card {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 5%);
+    border-radius: 3px;
+    box-shadow: 0 2 3 rgba(0, 0, 0, 7%);
+}
+
+.c-card__body {
+    padding: 24px 48px 24px 48px
+}
+
+.c-card__title{
+    font-size: 18px;
+    font-family: 500;
+    text-align: center;
+    line-height: 21px;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    margin: 0px;
+}
+
+.c-card__footer {
+    border-top: 1px solid rgba(0, 0, 0, 5%);
+    box-shadow: 0 2 4 rgba(0, 0, 0, 7%);
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
 /*
     Component: Forms
     ---
@@ -540,19 +568,27 @@ a:focus {
 */
 
 .c-button {
-
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #2E77E6;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #3385FF;
+    line-height: 20px;
+    padding: 13px;
+    width: 100%;
 }
 
 .c-button:hover {
-
+    background-color: #4F95FF;
 }
 
 .c-button:focus {
-
+background-color: #3385FF;
 }
 
 .c-button:active {
-
+    background-color: #2E77E6;
 }
 
 .c-button--block {
