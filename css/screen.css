@@ -19,7 +19,13 @@
 \*------------------------------------*/
 
 :root {
+    --global-color-alpha-light: #4F95FF;
+    --global-color-alpha: #3385FF;
+    --global-color-alpha-dark: #2E77E6;
 
+
+    /* Base line variabele */
+    --global-baseline: 8px;
 }
 
 /* CSS variables here */
@@ -170,18 +176,18 @@ hr {
 }
 
 a {
-    color: #3385FF;
+    color: var(--global-color-alpha);
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: purple;
+    color: var(--global-color-alpha);;
 }
 
 a:hover,
 a:focus {
-    color: #000000;
+    color: var(--global-color-alpha-light);
 }
 
 /*------------------------------------*\
