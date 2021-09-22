@@ -480,6 +480,11 @@ a:focus {
     Everything form related here
 */
 
+.c-form-field--option {
+    display: flex;
+    align-items: center;
+}
+
 /*
     Component: Input
     ---
